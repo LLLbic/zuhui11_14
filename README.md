@@ -28,7 +28,7 @@ Moore,10,Web/SMTP/POP3/FTP 等,2005,是,ARFF \
 USTC-TFC2016,2,FaceTime/Skype/Zeus 等,2016,是,PCAP \
 ISCX,7,HTTPS/SMTP/Facebook 等,2016,是,PCAP \
 CTU-13,13,Botnet 场景,2014,是,PCAP/ARFF \
-MAWI,多样,HTTP/FTP/SSH 等,2000–2020,否,PCAP \ 
+MAWI,多样,HTTP/FTP/SSH 等,2000–2020,否,PCAP \
 Auckland II,10,FTP/HTTP/IMAP 等,2000,否,包头（无负载）\
 UNIBS,10,BitTorrent/Skype/HTTP 等,2009,是,PCAP \
 UJN,9,Browsing/Chat/Cloud 等,2013,是,PCAP \

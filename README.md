@@ -23,19 +23,19 @@
 互相关分析通过测量特征子集中的相互关联性来识别冗余特征。最终得到的特征与定义的类别高度相关，且彼此间相关性较低。基于一致性子集搜索（CON）的特征选择算法能够识别出与同一类别具有强关联性的特征。增益比（GR）特征选择算法通过评估特征与数据集中定义类别的相关性进行排序。该算法基于信息增益（IG）算法，由于IG算法倾向于筛选具有大量取值的特征，因此能有效提升其性能。信息增益算法根据特征的熵值对数据集中的特征进行排序，具体通过计算特征在观察数据集前后类别熵值的差异来实现。卡方[32]特征选择算法则通过计算特征与类别之间的卡方统计量，根据特征与训练数据集的相关性进行排序。在提取特征并应用特征选择算法后，包含目标应用历史数据的完整数据集已就绪，可用于构建和测试分类器。具体可采用独立的训练集与测试集，或实施N折交叉验证。若采用独立训练集与测试集，需部署两个数据集分别用于分类器的构建与评估。训练阶段需要大量训练数据以确保最佳训练效果，同样地，也需要合适的测试数据集来准确评估正在构建的分类器性能。
 将同一数据集同时用于训练和测试属于不良实践，因为结果可能具有误导性。此时可采用N折交叉验证法。
 
-数据集,类数,流量类型,年份,标签,格式
-Moore,10,Web/SMTP/POP3/FTP 等,2005,是,ARFF
-USTC-TFC2016,2,FaceTime/Skype/Zeus 等,2016,是,PCAP
-ISCX,7,HTTPS/SMTP/Facebook 等,2016,是,PCAP
-CTU-13,13,Botnet 场景,2014,是,PCAP/ARFF
-MAWI,多样,HTTP/FTP/SSH 等,2000–2020,否,PCAP
-Auckland II,10,FTP/HTTP/IMAP 等,2000,否,包头（无负载）
-UNIBS,10,BitTorrent/Skype/HTTP 等,2009,是,PCAP
-UJN,9,Browsing/Chat/Cloud 等,2013,是,PCAP
-Anon17,多样,Browsing/IRC/Streaming 等,2014–2017,是,ARFF
-MIRAGE-2019,40,40 Android 应用,2017–2019,是,JSON
-UNSW IoT,28,28 IoT 设备,2016–2017,否,PCAP/CSV
-MobileGT,12,12 移动应用,2016–2018,是,ARFF
+数据集,类数,流量类型,年份,标签,格式 \
+Moore,10,Web/SMTP/POP3/FTP 等,2005,是,ARFF \
+USTC-TFC2016,2,FaceTime/Skype/Zeus 等,2016,是,PCAP \
+ISCX,7,HTTPS/SMTP/Facebook 等,2016,是,PCAP \
+CTU-13,13,Botnet 场景,2014,是,PCAP/ARFF \
+MAWI,多样,HTTP/FTP/SSH 等,2000–2020,否,PCAP \ 
+Auckland II,10,FTP/HTTP/IMAP 等,2000,否,包头（无负载）\
+UNIBS,10,BitTorrent/Skype/HTTP 等,2009,是,PCAP \
+UJN,9,Browsing/Chat/Cloud 等,2013,是,PCAP \
+Anon17,多样,Browsing/IRC/Streaming 等,2014–2017,是,ARFF \
+MIRAGE-2019,40,40 Android 应用,2017–2019,是,JSON \
+UNSW IoT,28,28 IoT 设备,2016–2017,否,PCAP/CSV \
+MobileGT,12,12 移动应用,2016–2018,是,ARFF \
 
 # “One Model Fits All Nodes”: Neuron Activation  Pattern Analysis-Based Attack Traffic Detection  Framework for P2P Networks
 ## 创新点

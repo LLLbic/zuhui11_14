@@ -65,7 +65,7 @@ Transformer 执行：警报触发时，收集相关包，Token 化，执行 Msha
 激活模型执行：计算激活模式与训练簇中心距离。偏差大 → 异常（FP）；否则 → 正常（TP）。\
 后处理：FP 低优先级手动分析，或用于重训练。
 
-构建过程（TokenConstruction 函数）：
+### 构建过程（TokenConstruction 函数）
 Tokenize (XT 构建)：
 按五元组将 X1 中的包组织成流。
 提取每包特征（前 LMax 包）：

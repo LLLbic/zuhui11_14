@@ -129,7 +129,7 @@ Transformer 训练：堆叠双向编码器（多头注意力），预测 yT。
 神经元丰富：多层编码器（数百神经元） vs. 传统 ML 少神经元 [54],[81]。
 交互：独立于 MD，同训练集 X1，确保激活反映“已知”模式；异常 O_a 表示未见流量（FP）。
 
-激活模式模型 (Activation Model, Mactivation)
+## 激活模式模型 (Activation Model, Mactivation)
 
 原理：元学习组件，无监督异常检测，基于 DBSCAN [25] 聚类正常激活模式。异常模式（距簇远）表示 FP（欠拟合未见流量）；正常模式表示 TP（已学样本）。
 输入：影子模型激活 O（平均 aj = (1/LMax) Σ ONL_j,i；MinMax 归一化 A）。

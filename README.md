@@ -39,10 +39,10 @@ MobileGT,12,12 移动应用,2016–2018,是,ARFF
 
 ## 挑战
 
-随机化/伪装：非标准端口/标准端口伪装。
-加密：隐私/恶意负载隐藏。
-数据集收集/标签：不平衡/隐私（匿名 IP/加密/同意）；标签负担（DPI/端口）。
-不平衡数据集：偏向多数类。
+随机化/伪装：非标准端口/标准端口伪装。\
+加密：隐私/恶意负载隐藏。\
+数据集收集/标签：不平衡/隐私（匿名 IP/加密/同意）；标签负担（DPI/端口）。\
+不平衡数据集：偏向多数类。\
 对抗样本： 方法（如 L-BFGS /FGSM ）导致误分类。
 
 # “One Model Fits All Nodes”: Neuron Activation  Pattern Analysis-Based Attack Traffic Detection  Framework for P2P Networks

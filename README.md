@@ -35,7 +35,7 @@ UJN,9,Browsing/Chat/Cloud 等,2013,是,PCAP \
 Anon17,多样,Browsing/IRC/Streaming 等,2014–2017,是,ARFF \
 MIRAGE-2019,40,40 Android 应用,2017–2019,是,JSON \
 UNSW IoT,28,28 IoT 设备,2016–2017,否,PCAP/CSV \
-MobileGT,12,12 移动应用,2016–2018,是,ARFF \
+MobileGT,12,12 移动应用,2016–2018,是,ARFF 
 
 ## 挑战
 
